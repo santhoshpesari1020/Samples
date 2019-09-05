@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ApplicationInsights.JavaScript</id>
+    <version>1.0.20-build00666</version>
+    <title>Application Insights API for JavaScript Applications</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=510709</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkId=392727</projectUrl>
+    <iconUrl>http://appanacdn.blob.core.windows.net/cdn/icons/aic.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Application Insights API enables you to get insights into user behavior and monitor usage patterns for your JavaScript applications. Application Insights service collects the data, analyzes it and presents the results in the forms of graphs and reports in Application Insights portal in Microsoft Azure. Privacy statement: https://go.microsoft.com/fwlink/?LinkId=512156</description>
+    <summary>Application Insights API for JavaScript Applications</summary>
+    <copyright>Copyright © 2013-2022, Microsoft. All rights reserved.</copyright>
+    <language>en-us</language>
+    <tags>Analytics Insights Telemetry JavaScript MDD Multi-Device ApplicationInsights Cordova Web</tags>
+  <dependencies>
+  <group>
+    <dependency id="log4net" version="2.0.8.0" />
+    <dependency id="Newtonsoft.Json" version="6.0.0.0" />
+  </group>
+  <group targetFramework="net46">
+    <dependency id="FluentNHibernate" version="2.0.3.0" />
+    <dependency id="UserModel.SMDC" version="1.0.0.0" />
+    <dependency id="Microsoft.AspNet.Identity.Core" version="2.2.1" />
+    <dependency id="Microsoft.AspNet.WebPages.Core" version="5.2.3" />
+    <dependency id="Microsoft.AspNet.WebApi.WebHost" version="5.2.3" />
+    <dependency id="Microsoft.AspNet.WebApi.Data" version="3.2.5" />
+    <dependency id="Microsoft.AspNet.WebApi.WebData" version="3.2.5" />  
+    <dependency id="Npgsql" version="3.2.5" />
+  </group>
+</dependencies>
+  </metadata>
+</package>
